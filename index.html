@@ -715,9 +715,9 @@
         <script>
             function sendEmail(){  
                 Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "mishrapurushottam44@gmail.com",
-                    Password : "8F76C3204EBB38041396D181592E3112216A",
+
+                    SecureToken:"1412538b-dc2c-4676-acd6-6c5896ed02d8",
+                   
                     To : 'purshottamkumarmishra44@gmail.com',
                     From : 'mishrapurushottam44@gmail.com',
                     Subject : "Portfolio contact Enquiry",
@@ -726,7 +726,7 @@
                          +"<br/> Phone No: " + document.getElementById("phone").value
                          +"<br/> Message: " + document.getElementById("message").value
                 }).then(
-                message => alert(message)
+                message => alert("Contacted to purshottam Mishra")
                 );
             }
         </script>
