@@ -542,9 +542,12 @@ img {
 }
 
 .qualification__button{
+  
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
+  color: var(--first-color);
+  
 }
 .qualification__buttons:hover{
   color: var(--first-color);
