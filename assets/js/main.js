@@ -75,10 +75,8 @@ const tabs=document.querySelectorAll('[data-target]'),
 
           tabs.classList.add('qualification__active')
 
-        })
-      })
-
-
+       })
+})
 /*==================== SERVICES MODAL ====================*/
 
 
@@ -181,8 +179,5 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
-
-// ***********send mail ***********
 
 
